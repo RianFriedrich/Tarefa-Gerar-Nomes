@@ -4,4 +4,5 @@ Gerar 1.000.000 nomes todos com 8 caracteres e ordená-los.
 
 O programa está dividido e dois pacotes com classes principais separadas, um com o uso de threads e outro sem.
 
-Para a ordenação, foi usado o Timsort, um método de ordenação na qual junta o algoritmo de Merge Sort e Insertion Sort. 
+Para a ordenação do código com threads, foi usado o Timsort, um método de ordenação na qual junta o algoritmo de Merge Sort e Insertion Sort. Assim, sendo um método simples com poucas linhas para gerar a ordenação dos nomes.
+Para a ordenaçãi do código sem threads, foi utilizado a biblioteca de ordenação Arrays.sort para ordenar as arrays e depois o Merge Sort para dividir, ordenar as metades e depois unir.
